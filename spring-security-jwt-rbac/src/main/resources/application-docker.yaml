@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql:3306/spring_security_jwt_rbac
+    username: ankit
+    password: ankit123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    "[com.authproject]": INFO
+    "[org.springframework.security]": WARN

@@ -1,0 +1,46 @@
+# Git
+
+.git
+.gitignore
+
+# Maven build
+
+target/
+node_modules/
+
+# IDE
+
+.idea
+.vscode
+\*.iml
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+\*.log
+
+# Docker
+
+docker-compose.yml
+docker-compose.override.yml
+
+# Env
+
+.env
+
+# Docs
+
+README.md
+
+# Test
+
+src/test
+
+# Optional local configs
+
+application-dev.yml
+application-local.yml
