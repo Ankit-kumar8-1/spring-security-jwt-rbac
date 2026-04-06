@@ -12,5 +12,5 @@ spring:
 
 logging:
   level:
-    "[com.authproject]": INFO
+    "[scom.authproject]": INFO
     "[org.springframework.security]": WARN
